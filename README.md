@@ -82,4 +82,4 @@ For queries and collaborations, feel free to reach out
 Github : https://github.com/Karan-purkait
 Linked in : https://www.linkedin.com/in/karan-purkait/
 
-Project Admin- KARAN BHAIYA
+Project Admin- KARAN
