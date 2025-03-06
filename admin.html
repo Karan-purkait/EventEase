@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Add Event</title>
+    <link rel="stylesheet" href="./css/admin.css">
+    
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Add New Event</h2>
+        <form id="eventForm">
+            <div class="form-group">
+                <label for="eventName">Event Name</label>
+                <input type="text" id="eventName" required>
+            </div>
+            <div class="form-group">
+                <label for="eventDate">Event Date</label>
+                <input type="datetime-local" id="eventDate" required>
+            </div>
+            <div class="form-group">
+                <label for="eventImage">Event Image URL</label>
+                <input type="url" id="eventImage" required>
+            </div>
+            <div class="form-group">
+                <label for="eventDescription">Description</label>
+                <textarea id="eventDescription" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="organizerName">Organizer Name</label>
+                <input type="text" id="organizerName" required>
+            </div>
+            <div class="form-group">
+                <label for="organizerContact">Organizer Contact</label>
+                <input type="text" id="organizerContact" required>
+            </div>
+            <div class="form-group">
+                <label for="organizerEmail">Organizer Email</label>
+                <input type="email" id="organizerEmail" required>
+            </div>
+            <button type="submit">Add Event</button>
+        </form>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>
